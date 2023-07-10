@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gentium Book Plus", serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Peddana", serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+/* ---------------------------------- shared style --------------------------------------- */
+.container {
+  width: 80vw;
+  margin: auto;
+}
+
+header {
+  background: url("images/banner/banner3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  height: 90vh;
+}
+.hero {
+  width: 40%;
+  margin-left: auto;
+  justify-content: center;
+}
+.hero-content {
+  text-align: right;
+}
+.hero-title {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+.para {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 32px;
+  margin-bottom: 16px;
+}
+.btn-hero {
+  color: #005fac;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+  padding: 20px 25px;
+}
+/* ----------------------------------------- failure section-------------------------------------------- */
+.failure-section {
+  padding: 100px 0;
+}
+.failure-main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.failure-main .failure-img-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.failure-main .failure-img-box img {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+}
+.failure-main .failure-content {
+  display: flex;
+  flex-direction: column;
+}
+.section-title {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.content-box {
+  width: 60%;
+}
+.failure-content ul {
+  list-style: inside;
+  list-style-type: square;
+}
+.failure-content ul li {
+  margin-top: 10px;
+  color: #444343;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+::marker {
+  font-size: 30px;
+  margin-right: -10px;
+}
+.plan-content {
+  text-align: center;
+}
+.plan-title {
+  color: #151414;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 15px 0;
+}
+.per-plans {
+  text-align: center;
+}
+.plan-desc {
+  color: #737272;
+}
+/* all plans designs */
+.all-plans {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  margin-top: 50px;
+}
+.positive-main {
+  margin: auto;
+  width: 1124px;
+  background: url("images/watch.png"), linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px;
+  border-radius: 8px;
+}
+
+/*   -------------------------- footer ------------------------------------------- */
+footer {
+  padding: 50px;
+}
